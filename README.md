@@ -333,15 +333,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Support & Contact
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/life-decision-simulator/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/life-decision-simulator/discussions)
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-
----
-
 ## 🚧 Roadmap
 
 ### Version 2.0 (Planned)
