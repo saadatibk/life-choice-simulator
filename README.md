@@ -1,7 +1,6 @@
-# Enhanced Life Decision Simulator 🚀
+# Life Choice Simulator 🚀
 
-## AI/ML Apprenticeship Project - LinkedIn Reach Program
-
+## AI/ML Apprenticeship Project 
 A comprehensive Python-based decision support system that uses AI/ML techniques to simulate and analyze major life decisions such as career changes, education investments, and entrepreneurship opportunities.
 
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
