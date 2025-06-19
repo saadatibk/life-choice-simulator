@@ -1,0 +1,412 @@
+{
+  "locations": {
+    "sf_bay_area": {
+      "name": "San Francisco Bay Area",
+      "cost_index": 1.6,
+      "housing_cost": 2.2,
+      "transportation_cost": 1.3,
+      "food_cost": 1.4,
+      "healthcare_cost": 1.2,
+      "tax_rate": {
+        "state": 0.133,
+        "local": 0.01,
+        "sales": 0.095
+      },
+      "job_market": {
+        "tech_premium": 1.4,
+        "finance_premium": 1.3,
+        "startup_density": 0.95,
+        "unemployment_rate": 0.035
+      },
+      "quality_of_life": {
+        "weather_score": 8.5,
+        "culture_score": 9.0,
+        "education_score": 8.8,
+        "commute_score": 4.5
+      },
+      "demographics": {
+        "median_age": 38,
+        "college_educated": 0.68,
+        "median_household_income": 112000
+      }
+    },
+    "nyc": {
+      "name": "New York City",
+      "cost_index": 1.5,
+      "housing_cost": 2.0,
+      "transportation_cost": 1.2,
+      "food_cost": 1.3,
+      "healthcare_cost": 1.1,
+      "tax_rate": {
+        "state": 0.108,
+        "local": 0.038,
+        "sales": 0.085
+      },
+      "job_market": {
+        "finance_premium": 1.5,
+        "tech_premium": 1.2,
+        "startup_density": 0.8,
+        "unemployment_rate": 0.042
+      },
+      "quality_of_life": {
+        "weather_score": 6.0,
+        "culture_score": 9.5,
+        "education_score": 8.5,
+        "commute_score": 5.0
+      },
+      "demographics": {
+        "median_age": 36,
+        "college_educated": 0.58,
+        "median_household_income": 85000
+      }
+    },
+    "seattle": {
+      "name": "Seattle",
+      "cost_index": 1.3,
+      "housing_cost": 1.7,
+      "transportation_cost": 1.1,
+      "food_cost": 1.2,
+      "healthcare_cost": 1.0,
+      "tax_rate": {
+        "state": 0.0,
+        "local": 0.0,
+        "sales": 0.101
+      },
+      "job_market": {
+        "tech_premium": 1.3,
+        "healthcare_premium": 1.1,
+        "startup_density": 0.7,
+        "unemployment_rate": 0.038
+      },
+      "quality_of_life": {
+        "weather_score": 5.5,
+        "culture_score": 8.0,
+        "education_score": 8.2,
+        "commute_score": 6.0
+      },
+      "demographics": {
+        "median_age": 35,
+        "college_educated": 0.65,
+        "median_household_income": 95000
+      }
+    },
+    "boston": {
+      "name": "Boston",
+      "cost_index": 1.25,
+      "housing_cost": 1.6,
+      "transportation_cost": 1.2,
+      "food_cost": 1.15,
+      "healthcare_cost": 1.3,
+      "tax_rate": {
+        "state": 0.05,
+        "local": 0.0,
+        "sales": 0.0625
+      },
+      "job_market": {
+        "healthcare_premium": 1.2,
+        "education_premium": 1.1,
+        "tech_premium": 1.15,
+        "unemployment_rate": 0.032
+      },
+      "quality_of_life": {
+        "weather_score": 6.5,
+        "culture_score": 8.5,
+        "education_score": 9.2,
+        "commute_score": 5.5
+      },
+      "demographics": {
+        "median_age": 32,
+        "college_educated": 0.72,
+        "median_household_income": 88000
+      }
+    },
+    "los_angeles": {
+      "name": "Los Angeles",
+      "cost_index": 1.2,
+      "housing_cost": 1.8,
+      "transportation_cost": 1.1,
+      "food_cost": 1.1,
+      "healthcare_cost": 1.0,
+      "tax_rate": {
+        "state": 0.133,
+        "local": 0.01,
+        "sales": 0.095
+      },
+      "job_market": {
+        "entertainment_premium": 1.3,
+        "tech_premium": 1.1,
+        "startup_density": 0.6,
+        "unemployment_rate": 0.045
+      },
+      "quality_of_life": {
+        "weather_score": 9.0,
+        "culture_score": 8.5,
+        "education_score": 7.5,
+        "commute_score": 3.5
+      },
+      "demographics": {
+        "median_age": 36,
+        "college_educated": 0.52,
+        "median_household_income": 78000
+      }
+    },
+    "chicago": {
+      "name": "Chicago",
+      "cost_index": 1.1,
+      "housing_cost": 1.3,
+      "transportation_cost": 1.0,
+      "food_cost": 1.0,
+      "healthcare_cost": 0.95,
+      "tax_rate": {
+        "state": 0.0495,
+        "local": 0.01,
+        "sales": 0.1025
+      },
+      "job_market": {
+        "finance_premium": 1.2,
+        "manufacturing_premium": 1.1,
+        "tech_premium": 1.05,
+        "unemployment_rate": 0.048
+      },
+      "quality_of_life": {
+        "weather_score": 5.0,
+        "culture_score": 8.0,
+        "education_score": 7.8,
+        "commute_score": 6.5
+      },
+      "demographics": {
+        "median_age": 34,
+        "college_educated": 0.55,
+        "median_household_income": 72000
+      }
+    },
+    "austin": {
+      "name": "Austin",
+      "cost_index": 1.05,
+      "housing_cost": 1.4,
+      "transportation_cost": 0.9,
+      "food_cost": 0.95,
+      "healthcare_cost": 0.9,
+      "tax_rate": {
+        "state": 0.0,
+        "local": 0.0,
+        "sales": 0.082
+      },
+      "job_market": {
+        "tech_premium": 1.15,
+        "startup_density": 0.8,
+        "government_premium": 1.0,
+        "unemployment_rate": 0.035
+      },
+      "quality_of_life": {
+        "weather_score": 7.5,
+        "culture_score": 8.5,
+        "education_score": 7.5,
+        "commute_score": 6.5
+      },
+      "demographics": {
+        "median_age": 33,
+        "college_educated": 0.58,
+        "median_household_income": 75000
+      }
+    },
+    "denver": {
+      "name": "Denver",
+      "cost_index": 1.0,
+      "housing_cost": 1.2,
+      "transportation_cost": 0.9,
+      "food_cost": 0.95,
+      "healthcare_cost": 0.9,
+      "tax_rate": {
+        "state": 0.0463,
+        "local": 0.0,
+        "sales": 0.077
+      },
+      "job_market": {
+        "tech_premium": 1.1,
+        "aerospace_premium": 1.15,
+        "energy_premium": 1.1,
+        "unemployment_rate": 0.038
+      },
+      "quality_of_life": {
+        "weather_score": 8.0,
+        "culture_score": 7.5,
+        "education_score": 7.8,
+        "commute_score": 7.0
+      },
+      "demographics": {
+        "median_age": 34,
+        "college_educated": 0.62,
+        "median_household_income": 78000
+      }
+    },
+    "atlanta": {
+      "name": "Atlanta",
+      "cost_index": 0.95,
+      "housing_cost": 1.1,
+      "transportation_cost": 0.9,
+      "food_cost": 0.9,
+      "healthcare_cost": 0.85,
+      "tax_rate": {
+        "state": 0.0575,
+        "local": 0.0,
+        "sales": 0.074
+      },
+      "job_market": {
+        "logistics_premium": 1.2,
+        "finance_premium": 1.1,
+        "tech_premium": 1.05,
+        "unemployment_rate": 0.042
+      },
+      "quality_of_life": {
+        "weather_score": 7.0,
+        "culture_score": 7.5,
+        "education_score": 7.2,
+        "commute_score": 5.5
+      },
+      "demographics": {
+        "median_age": 33,
+        "college_educated": 0.48,
+        "median_household_income": 68000
+      }
+    },
+    "phoenix": {
+      "name": "Phoenix",
+      "cost_index": 0.9,
+      "housing_cost": 1.0,
+      "transportation_cost": 0.85,
+      "food_cost": 0.9,
+      "healthcare_cost": 0.8,
+      "tax_rate": {
+        "state": 0.045,
+        "local": 0.0,
+        "sales": 0.084
+      },
+      "job_market": {
+        "healthcare_premium": 1.1,
+        "aerospace_premium": 1.15,
+        "tech_premium": 1.0,
+        "unemployment_rate": 0.045
+      },
+      "quality_of_life": {
+        "weather_score": 6.0,
+        "culture_score": 6.5,
+        "education_score": 6.8,
+        "commute_score": 7.5
+      },
+      "demographics": {
+        "median_age": 35,
+        "college_educated": 0.42,
+        "median_household_income": 65000
+      }
+    },
+    "dallas": {
+      "name": "Dallas",
+      "cost_index": 0.9,
+      "housing_cost": 1.0,
+      "transportation_cost": 0.85,
+      "food_cost": 0.9,
+      "healthcare_cost": 0.8,
+      "tax_rate": {
+        "state": 0.0,
+        "local": 0.0,
+        "sales": 0.0825
+      },
+      "job_market": {
+        "energy_premium": 1.2,
+        "finance_premium": 1.15,
+        "tech_premium": 1.1,
+        "unemployment_rate": 0.038
+      },
+      "quality_of_life": {
+        "weather_score": 6.5,
+        "culture_score": 7.0,
+        "education_score": 7.0,
+        "commute_score": 6.0
+      },
+      "demographics": {
+        "median_age": 32,
+        "college_educated": 0.45,
+        "median_household_income": 70000
+      }
+    },
+    "midwest_average": {
+      "name": "Midwest Average",
+      "cost_index": 0.85,
+      "housing_cost": 0.8,
+      "transportation_cost": 0.8,
+      "food_cost": 0.85,
+      "healthcare_cost": 0.75,
+      "tax_rate": {
+        "state": 0.045,
+        "local": 0.005,
+        "sales": 0.065
+      },
+      "job_market": {
+        "manufacturing_premium": 1.1,
+        "agriculture_premium": 1.0,
+        "tech_premium": 0.95,
+        "unemployment_rate": 0.042
+      },
+      "quality_of_life": {
+        "weather_score": 5.5,
+        "culture_score": 6.5,
+        "education_score": 7.0,
+        "commute_score": 8.0
+      },
+      "demographics": {
+        "median_age": 38,
+        "college_educated": 0.38,
+        "median_household_income": 58000
+      }
+    }
+  },
+  "mobility_data": {
+    "relocation_costs": {
+      "local_move": 2500,
+      "cross_state": 5000,
+      "cross_country": 8500,
+      "international": 15000
+    },
+    "adaptation_period": {
+      "career_impact_months": 6,
+      "social_adjustment_months": 12,
+      "income_adjustment_factor": 0.9
+    },
+    "remote_work_impact": {
+      "salary_adjustment": 0.85,
+      "cost_savings": 0.15,
+      "productivity_factor": 1.02
+    }
+  },
+  "climate_factors": {
+    "extreme_weather_risk": {
+      "sf_bay_area": 0.15,
+      "nyc": 0.20,
+      "seattle": 0.10,
+      "boston": 0.25,
+      "los_angeles": 0.30,
+      "chicago": 0.35,
+      "austin": 0.25,
+      "denver": 0.20,
+      "atlanta": 0.30,
+      "phoenix": 0.40,
+      "dallas": 0.35,
+      "midwest_average": 0.30
+    },
+    "energy_costs": {
+      "sf_bay_area": 1.4,
+      "nyc": 1.3,
+      "seattle": 0.9,
+      "boston": 1.2,
+      "los_angeles": 1.3,
+      "chicago": 1.0,
+      "austin": 0.9,
+      "denver": 1.0,
+      "atlanta": 0.9,
+      "phoenix": 1.1,
+      "dallas": 0.9,
+      "midwest_average": 0.85
+    }
+  }
+}
